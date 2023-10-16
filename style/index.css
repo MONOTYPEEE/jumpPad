@@ -39,3 +39,40 @@ body{
     background: url('/images/github-mark.svg');
     background-size: contain;
 }
+
+.linkCard{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 88888cm;
+    width: 360px;
+    transition: 120ms ease-in-out;
+}
+.linkCard>img{
+    border-radius: 8888px;
+    width: 72px;
+    height: 72px;
+}
+.linkCard>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.linkCard>div>:first-child{
+    font-size: 20px;
+}
+.linkCard>div>:last-child{
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.linkCard:hover{
+    filter: brightness(0.9);
+    opacity: 0.9;
+}
+
+.playHere{
+    background: #DAD9F2;
+    
+}
