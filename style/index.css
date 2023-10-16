@@ -25,6 +25,10 @@ body{
     -moz-appearance: none;
 }
 
+#contacts{
+    display: flex;
+    gap: 8px;
+}
 .contactsLink{
     width: 32px;
     height: 32px;
@@ -68,9 +72,4 @@ body{
 #linkCard:hover, #linkCard:active{
     filter: brightness(0.9);
     opacity: 0.9;
-}
-
-#contacts{
-    display: flex;
-    gap: 8px;
 }
