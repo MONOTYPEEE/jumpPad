@@ -15,3 +15,27 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+.noEffectDef{
+    background: none;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contactsLink{
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 120ms ease-in-out;
+    background: greenyellow;
+}
+.contactsLink:hover{
+    opacity: 1;
+}
+.GitHub{
+    background: url('/images/github-mark.svg');
+    background-size: contain;
+}
