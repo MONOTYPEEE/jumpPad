@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('/style/fonts/pretendardVariable.woff2') format('woff2');
+}
+
+*{
+    font-family: 'Pretendard';
+    margin: 0;
+}
