@@ -44,6 +44,7 @@ body{
     border-radius: 88888cm;
     width: 360px;
     transition: 120ms ease-in-out;
+    cursor: pointer;
 }
 .linkCard>img{
     border-radius: 8888px;
