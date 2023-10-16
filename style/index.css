@@ -37,7 +37,7 @@ body{
     opacity: 1;
 }
 
-.linkCard{
+#linkCard{
     display: flex;
     flex-direction: row;
     padding: 16px;
@@ -47,25 +47,25 @@ body{
     transition: 120ms ease-in-out;
     cursor: pointer;
 }
-.linkCard>img{
+#linkCard>img{
     border-radius: 8888px;
     width: 72px;
     height: 72px;
 }
-.linkCard>div{
+#linkCard>div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.linkCard>div>:first-child{
+#linkCard>div>:first-child{
     font-size: 20px;
 }
-.linkCard>div>:last-child{
+#linkCard>div>:last-child{
     font-size: 12px;
     font-weight: 700;
     opacity: 0.5;
 }
-.linkCard:hover, .linkCard:active{
+#linkCard:hover, #linkCard:active{
     filter: brightness(0.9);
     opacity: 0.9;
 }
