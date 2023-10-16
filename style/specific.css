@@ -2,6 +2,13 @@
     background: url('/images/github-mark.svg');
     background-size: contain;
 }
+.email{
+    background: salmon;
+    color: white;
+    border-radius: 8080px;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .playHere{
     background: #DAD9F2;
